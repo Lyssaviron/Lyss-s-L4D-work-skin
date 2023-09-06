@@ -266,6 +266,12 @@ color: rgb(255,158,71);
 background-color: #000000DC;
 }
 
+#workskin .userstuff.module,
+#workskin .poster,
+#workskin .campaign {
+max-width: 95%;
+}
+
 #workskin p.note {
 width: fit-content;
 }
@@ -288,7 +294,6 @@ margin: .5em;
 }
 
 #workskin .userstuff.module {
-max-width: 95%;
 margin: auto;
 }
 
@@ -299,13 +304,11 @@ background-color: #A81A1AFF;
 #workskin .poster {
 border: 10px solid;
 border-image: url(https://cdn.discordapp.com/attachments/1136352033574768640/1139798602949070908/image.png) stretch 30;
-max-width: 95%;
 }
 
 #workskin .campaign {
 border: 15px solid;
 border-image: url(https://cdn.discordapp.com/attachments/1136352033574768640/1139996491759501372/campaign_frame.png) stretch 40;
-max-width: 95%;
 }
 
 #workskin {

@@ -1,0 +1,473 @@
+/*Titles and headings*/
+#workskin h2 {
+font-size: 1.5em;
+}
+
+#workskin h4,
+#workskin h5,
+#workskin h6 {
+font-size: 1.1em;
+}
+
+#workskin .title.heading,
+#workskin h1,
+#workskin h2 {
+font-family: Future Rot, stubble, "trade gothic", Verdana, sans-serif;
+}
+
+#workskin h3,
+#workskin h4,
+#workskin h5,
+#workskin h6,
+#workskin .userstuff h2,
+#workskin .heading,
+#workskin .preface.group h3.byline.heading a,
+#workskin .preface.group h3.byline.heading a::before,
+#workskin #chapter_index::before {
+font-family: stubble, "trade gothic", verdana, sans-serif;
+}
+
+#workskin h2,
+#workskin .preface.group h3.byline.heading a:hover,
+#workskin h3.title a:hover,
+#workskin .preface.group h3.byline.heading a::before,
+#workskin #chapter_index:hover::before {
+color: white;
+}
+
+#workskin .preface.group h3.byline.heading a,
+#workskin .preface.group h3.byline.heading a::before,
+#workskin #chapter_index::before {
+color: #C0C0C0FF;
+}
+
+#workskin h3.title a:hover,
+#workskin .preface.group h3.byline.heading a:hover {
+text-shadow: 0 0 2px white;
+}
+
+#workskin h3.title a:hover {
+border-bottom: 1px solid white;
+}
+
+#workskin h3.title a,
+#workskin .preface.group h3.byline.heading a,
+#workskin .preface.group h3.byline.heading a::before,
+#workskin #chapter_index::before {
+border: none;
+box-shadow: none;
+}
+
+#workskin .title.heading,
+#workskin h3.title,
+#workskin div.preface {
+margin: auto;
+}
+
+#workskin h3.title a,
+#workskin .preface.group h3.byline.heading a {
+text-transform: uppercase;
+}
+
+#workskin .preface.group h3.byline.heading a::before {
+content: "a work by";
+font-size: .6em;
+display: block;
+margin-bottom: .3em;
+}
+
+#workskin .preface.group h3.byline.heading a {
+font-size: 1.25em;
+letter-spacing: .05em;
+top: -10em;
+}
+
+#workskin .title.heading {
+font-size: 2.25em;
+letter-spacing: .1em;
+border: 20px solid;
+border-image: url(https://cdn.discordapp.com/attachments/1136352033574768640/1139996491759501372/campaign_frame.png) stretch 40;
+width: fit-content;
+padding: 1.5%;
+}
+
+/*General texts*/
+#workskin p a,
+#workskin p.note,
+#workskin .userstuff li a,
+#workskin .meta dt,
+#workskin strong,
+#workskin b {
+font-size: 1.1em;
+}
+
+#workskin body,
+#workskin p,
+#workskin a,
+#workskin .userstuff,
+#workskin .userstuff li a,
+#workskin,
+#workskin p select,
+#workskin #chapter_index,
+#workskin dl.stats dd {
+font-size: 1.05em;
+}
+
+#workskin .stats,
+#workskin .userstuff li a,
+#workskin strong,
+#workskin b,
+#workskin p select {
+font-family: stubble, "trade gothic", verdana, sans-serif;
+}
+
+#workskin blockquote,
+#workskin body,
+#workskin p,
+#workskin .userstuff {
+font-family: "trade gothic", verdana, sans-serif;
+}
+
+#workskin blockquote,
+#workskin body,
+#workskin p,
+#workskin .userstuff p,
+#workskin .userstuff li,
+#workskin .userstuff li a:hover,
+#workskin,
+#workskin p select:hover {
+color: white;
+}
+
+#workskin .userstuff li a {
+color: #DDDDDDFF;
+}
+
+#workskin p select {
+color: #C0C0C0FF;
+}
+
+#workskin a:visited {
+color: red;
+}
+
+#workskin p select {
+border: none;
+box-shadow: none;
+}
+
+#workskin #chapter_index:hover::before {
+text-shadow: 0 0 2px white;
+}
+
+/*Subtitle-colored character text*/
+#workskin .bill {
+color: rgb(71,117,56);
+}
+
+#workskin .francis {
+color: rgb(130,147,148);
+}
+
+#workskin .louis {
+color: rgb(225,225,225);
+}
+
+#workskin .zoey {
+color: rgb(174,91,91);
+}
+
+#workskin .coach {
+color: rgb(112,75,125);
+}
+
+#workskin .ellis {
+color: rgb(223,200,143);
+}
+
+#workskin .nick {
+color: rgb(64,100,166);
+}
+
+#workskin .rochelle {
+color: rgb(168,71,96);
+}
+
+#workskin .boomer {
+color: rgb(166,115,115);
+}
+
+#workskin .charger {
+color: rgb(91,130,152);
+}
+
+#workskin .hunter {
+color: rgb(131,104,84);
+}
+
+#workskin .jockey {
+color: rgb(217,205,180);
+}
+
+#workskin .smoker {
+color: rgb(114,166,123);
+}
+
+#workskin .spitter {
+color: rgb(192,197,43);
+}
+
+#workskin .tank {
+color: rgb(159,166,115);
+}
+
+#workskin .witch {
+color: rgb(166,115,164);
+}
+
+#workskin .boatman,
+#workskin .chopperpilot,
+#workskin .planepilot,
+#workskin .soldierl4d {
+color: rgb(26,125,194);
+}
+
+#workskin .churchguy {
+color: rgb(237,201,87);
+}
+
+#workskin .whitaker {
+color: rgb(128,140,148);
+}
+
+#workskin .arenaheli {
+color: rgb(130,140,140);
+}
+
+#workskin .bridgesoldier1 {
+color: rgb(148,148,148);
+}
+
+#workskin .bridgesoldier2 {
+color: rgb(148,130,130);
+}
+
+#workskin .virgil {
+color: rgb(148,148,110);
+}
+
+#workskin .event {
+color: rgb(255,158,71);
+}
+
+/*General appearance*/
+#workskin .preface,
+#workskin .userstuff {
+background-color: #000000DC;
+}
+
+#workskin p.note {
+width: fit-content;
+}
+
+#workskin ::selection {
+background: #404040FF;
+color: #FF9E47FF;
+}
+
+#workskin #chapter_index::before {
+content: "CHAPTER";
+position: relative;
+margin-right: 1em;
+}
+
+#workskin .userstuff,
+.chapter.group {
+padding: .5em;
+margin: .5em;
+}
+
+#workskin .download .secondary {
+background-color: #A81A1AFF;
+}
+
+#workskin .poster {
+border: 10px solid;
+border-image: url(https://cdn.discordapp.com/attachments/1136352033574768640/1139798602949070908/image.png) stretch 30;
+max-width: 95%;
+}
+
+#workskin .campaign {
+border: 15px solid;
+border-image: url(https://cdn.discordapp.com/attachments/1136352033574768640/1139996491759501372/campaign_frame.png) stretch 40;
+max-width: 95%;
+}
+
+#workskin {
+background-image: url(https://cdn.discordapp.com/attachments/1136352033574768640/1149053398067454033/image.png);
+background-size: contain;
+background-repeat: repeat-y;
+max-width: 100%;
+}
+
+#workskin div.preface {
+border: 10px solid;
+border-image: url(https://cdn.discordapp.com/attachments/1136352033574768640/1139798602949070908/image.png) stretch 30;
+max-width: 95%;
+margin-top: 2%;
+margin-bottom: 1%;
+padding-top: 2%;
+}
+
+/*buttons*/
+#workskin button,
+#workskin input[type=submit],
+#workskin .actions,
+#workskin .actions a,
+#workskin .actions input,
+#workskin .actions li a,
+#workskin .actions li input,
+#workskin .actions li input[type=submit],
+#workskin .actions li .current,
+#workskin .actions li label,
+#workskin input:focus {
+font-size: 1.1em;
+}
+
+#workskin button,
+#workskin a,
+#workskin a:link,
+#workskin a:visited,
+#workskin li::marker,
+#workskin input[type="submit"] {
+font-family: stubble,"trade gothic",verdana,sans-serif;
+}
+
+#workskin button,
+#workskin .actions,
+#workskin a,
+#workskin a:link,
+#workskin .action,
+#workskin .actions a,
+#workskin .actions a:link,
+#workskin .actions input {
+color: #DDDDDDFF;
+}
+
+#workskin button:hover,
+#workskin .actions:hover,
+#workskin a:hover,
+#workskin a .link:hover,
+#workskin a:visited:hover,
+#workskin .action:hover,
+#workskin .action:focus,
+#workskin .actions a:hover,
+#workskin .actions a:focus,
+#workskin .actions input:hover,
+#workskin .actions input:focus,
+#workskin .actions a:active,
+#workskin .current,
+#workskin a.current,
+#workskin a:link.current,
+#workskin .current a:visited {
+color: white;
+}
+
+#workskin button:visited,
+#workskin a:visited,
+#workskin a .link:visited,
+#workskin .actions a:visited {
+color: red;
+}
+
+button,
+#workskin a:visited:hover,
+#workskin .action,
+#workskin .action:link,
+#workskin .action:hover,
+#workskin .action:focus,
+#workskin .actions label,
+#workskin .actions input,
+#workskin .actions input:visited,
+#workskin .actions a,
+#workskin .actions a:link,
+#workskin .actions a:hover,
+#workskin .actions a:focus,
+#workskin .current {
+background-color: black;
+}
+
+#workskin .actions input,
+#workskin .actions a,
+#workskin .actions a:link,
+#workskin .actions a:visited,
+#workskin .action,
+#workskin .action:link,
+#workskin button,
+#workskin .current {
+border: 2px solid #DDDDDDFF;
+}
+
+#workskin .actions input:hover,
+#workskin .actions input:focus,
+#workskin .actions a:visited:hover,
+#workskin .actions a:link:hover,
+#workskin .actions a:focus,
+#workskin .actions a:active,
+#workskin .action:hover,
+#workskin .action:focus,
+#workskin button:hover,
+#workskin .current,
+#workskin .current a:visited,
+#workskin a.current {
+border: 2px solid white;
+box-shadow: 0 0 3px white;
+text-shadow: 0 0 2px white;
+}
+
+#workskin .actions input,
+#workskin p.actions {
+border-radius: 5px;
+}
+
+#workskin .actions a,
+#workskin .actions a:link,
+#workskin .action,
+#workskin .action:link,
+#workskin button,
+#workskin .current,
+#workskin .actions label,
+#workskin .actions input {
+background-image: none;
+}
+
+#workskin .actions input,
+#workskin .action,
+#workskin .action:link,
+#workskin button,
+#workskin .current {
+box-shadow: none;
+}
+
+#workskin .actions a,
+#workskin .actions a:link,
+#workskin .action,
+#workskin .action:link,
+#workskin button,
+#workskin .current,
+#workskin .actions input {
+-webkit-appearance: none;
+}
+
+#workskin .action a {
+color: #DDDDDDFF !important;
+border: none !important;
+}
+
+#workskin .action a:hover {
+color: white !important;
+}
+
+#workskin p.actions {
+padding: 0;
+}

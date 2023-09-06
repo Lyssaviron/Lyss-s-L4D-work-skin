@@ -287,6 +287,11 @@ padding: .5em;
 margin: .5em;
 }
 
+#workskin .userstuff.module {
+max-width: 95%;
+margin: auto;
+}
+
 #workskin .download .secondary {
 background-color: #A81A1AFF;
 }

@@ -272,6 +272,19 @@ background-color: #000000DC;
 max-width: 95%;
 }
 
+#workskin .userstuff,
+#workskin .chapter.group {
+padding: .5em;
+}
+
+#workskin .userstuff.module {
+margin: auto;
+}
+
+#workskin .chapter.group {
+margin: 0 auto 1em;
+}
+
 #workskin p.note {
 width: fit-content;
 }
@@ -285,16 +298,6 @@ color: #FF9E47FF;
 content: "CHAPTER";
 position: relative;
 margin-right: 1em;
-}
-
-#workskin .userstuff,
-.chapter.group {
-padding: .5em;
-margin: .5em;
-}
-
-#workskin .userstuff.module {
-margin: auto;
 }
 
 #workskin .download .secondary {

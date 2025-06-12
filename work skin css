@@ -312,11 +312,11 @@ border-image: url(https://lyss-l4d-zone.neocities.org/l4d_site_skin/poster_frame
 
 #workskin .campaign {
 border: 15px solid;
-border-image: url(https://cdn.discordapp.com/attachments/1136352033574768640/1139996491759501372/campaign_frame.png) stretch 40;
+border-image: url(https://lyss-l4d-zone.neocities.org/l4d_site_skin/campaign_frame.png) stretch 40;
 }
 
 #workskin {
-background-image: url(https://cdn.discordapp.com/attachments/1136352033574768640/1149053398067454033/image.png);
+background-image: url(https://lyss-l4d-zone.neocities.org/l4d_site_skin/green_background_med.png);
 background-size: contain;
 background-repeat: repeat-y;
 max-width: 100%;
